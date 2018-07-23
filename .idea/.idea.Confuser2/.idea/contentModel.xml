@@ -1,0 +1,860 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Justin\.Rider2018.1\system\resharper-host\local\Transient\ReSharperHost\v12\SolutionCaches\_Confuser2.-1319768146.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Justin\Documents\neo-ConfuserEx" t="IncludeFlat">
+      <e p=".nuget" t="Include">
+        <e p="NuGet.Config" t="Include" />
+        <e p="NuGet.targets" t="Include" />
+      </e>
+      <e p="Confuser.CLI" t="IncludeRecursive">
+        <e p="Confuser.CLI.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Options.cs" t="Include" />
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+      </e>
+      <e p="Confuser.Core" t="IncludeRecursive">
+        <e p="Annotations.cs" t="Include" />
+        <e p="API" t="Include">
+          <e p="APIStore.cs" t="Include" />
+          <e p="IDataStore.cs" t="Include" />
+          <e p="IOpaquePredicate.cs" t="Include" />
+        </e>
+        <e p="Confuser.Core.csproj" t="IncludeRecursive" />
+        <e p="ConfuserComponent.cs" t="Include" />
+        <e p="ConfuserContext.cs" t="Include" />
+        <e p="ConfuserEngine.cs" t="Include" />
+        <e p="ConfuserException.cs" t="Include" />
+        <e p="ConfuserParameters.cs" t="Include" />
+        <e p="CoreComponent.cs" t="Include" />
+        <e p="DependencyResolver.cs" t="Include" />
+        <e p="DnlibUtils.cs" t="Include" />
+        <e p="Helpers" t="Include">
+          <e p="ControlFlowGraph.cs" t="Include" />
+          <e p="InjectHelper.cs" t="Include" />
+          <e p="KeySequence.cs" t="Include" />
+          <e p="MutationHelper.cs" t="Include" />
+        </e>
+        <e p="ILogger.cs" t="Include" />
+        <e p="LZMA" t="Include">
+          <e p="Common" t="Include">
+            <e p="CRC.cs" t="Include" />
+            <e p="InBuffer.cs" t="Include" />
+            <e p="OutBuffer.cs" t="Include" />
+          </e>
+          <e p="Compress" t="Include">
+            <e p="LZ" t="Include">
+              <e p="IMatchFinder.cs" t="Include" />
+              <e p="LzBinTree.cs" t="Include" />
+              <e p="LzInWindow.cs" t="Include" />
+              <e p="LzOutWindow.cs" t="Include" />
+            </e>
+            <e p="LZMA" t="Include">
+              <e p="LzmaBase.cs" t="Include" />
+              <e p="LzmaDecoder.cs" t="Include" />
+              <e p="LzmaEncoder.cs" t="Include" />
+            </e>
+            <e p="RangeCoder" t="Include">
+              <e p="RangeCoder.cs" t="Include" />
+              <e p="RangeCoderBit.cs" t="Include" />
+              <e p="RangeCoderBitTree.cs" t="Include" />
+            </e>
+          </e>
+          <e p="ICoder.cs" t="Include" />
+        </e>
+        <e p="Marker.cs" t="Include" />
+        <e p="MarkerResult.cs" t="Include" />
+        <e p="ModuleSorter.cs" t="Include" />
+        <e p="ModuleWriterListener.cs" t="Include" />
+        <e p="NativeEraser.cs" t="Include" />
+        <e p="NullLogger.cs" t="Include" />
+        <e p="ObfAttrMarker.cs" t="Include" />
+        <e p="ObfAttrParser.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Packer.cs" t="Include" />
+        <e p="PluginDiscovery.cs" t="Include" />
+        <e p="Project" t="Include">
+          <e p="ConfuserPrj.xsd" t="Include" />
+          <e p="ConfuserProject.cs" t="Include" />
+          <e p="InvalidPatternException.cs" t="Include" />
+          <e p="PatternParser.cs" t="Include" />
+          <e p="Patterns" t="Include">
+            <e p="AndOperator.cs" t="Include" />
+            <e p="DeclTypeFunction.cs" t="Include" />
+            <e p="FullNameFunction.cs" t="Include" />
+            <e p="HasAttrFunction.cs" t="Include" />
+            <e p="InheritsFunction.cs" t="Include" />
+            <e p="IsPublicFunction.cs" t="Include" />
+            <e p="IsTypeFunction.cs" t="Include" />
+            <e p="LiteralExpression.cs" t="Include" />
+            <e p="MatchFunction.cs" t="Include" />
+            <e p="MemberTypeFunction.cs" t="Include" />
+            <e p="ModuleFunction.cs" t="Include" />
+            <e p="NameFunction.cs" t="Include" />
+            <e p="NamespaceFunction.cs" t="Include" />
+            <e p="NotOperator.cs" t="Include" />
+            <e p="OrOperator.cs" t="Include" />
+            <e p="PatternExpression.cs" t="Include" />
+            <e p="PatternFunction.cs" t="Include" />
+            <e p="PatternOperator.cs" t="Include" />
+          </e>
+          <e p="PatternToken.cs" t="Include" />
+          <e p="PatternTokenizer.cs" t="Include" />
+        </e>
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="Protection.cs" t="Include" />
+        <e p="ProtectionDependencyAttributes.cs" t="Include" />
+        <e p="ProtectionParameters.cs" t="Include" />
+        <e p="ProtectionPhase.cs" t="Include" />
+        <e p="ProtectionPipeline.cs" t="Include" />
+        <e p="ProtectionPreset.cs" t="Include" />
+        <e p="ProtectionSettings.cs" t="Include" />
+        <e p="ProtectionTargets.cs" t="Include" />
+        <e p="ServiceRegistry.cs" t="Include" />
+        <e p="Services" t="Include">
+          <e p="CompressionService.cs" t="Include" />
+          <e p="MarkerService.cs" t="Include" />
+          <e p="RandomService.cs" t="Include" />
+          <e p="RuntimeService.cs" t="Include" />
+          <e p="TraceService.cs" t="Include" />
+        </e>
+        <e p="UnreachableException.cs" t="Include" />
+        <e p="Utils.cs" t="Include" />
+      </e>
+      <e p="Confuser.DynCipher" t="IncludeRecursive">
+        <e p="AST" t="Include">
+          <e p="ArrayIndexExpression.cs" t="Include" />
+          <e p="AssignmentStatement.cs" t="Include" />
+          <e p="BinOpExpression.cs" t="Include" />
+          <e p="Expression.cs" t="Include" />
+          <e p="LiteralExpression.cs" t="Include" />
+          <e p="LoopStatement.cs" t="Include" />
+          <e p="Statement.cs" t="Include" />
+          <e p="StatementBlock.cs" t="Include" />
+          <e p="UnaryOpExpression.cs" t="Include" />
+          <e p="Variable.cs" t="Include" />
+          <e p="VariableExpression.cs" t="Include" />
+        </e>
+        <e p="Confuser.DynCipher.csproj" t="IncludeRecursive" />
+        <e p="DynCipherComponent.cs" t="Include" />
+        <e p="DynCipherService.cs" t="Include" />
+        <e p="Elements" t="Include">
+          <e p="AddKey.cs" t="Include" />
+          <e p="BinOp.cs" t="Include" />
+          <e p="CryptoElement.cs" t="Include" />
+          <e p="Matrix.cs" t="Include" />
+          <e p="NumOp.cs" t="Include" />
+          <e p="RotateBit.cs" t="Include" />
+          <e p="Swap.cs" t="Include" />
+        </e>
+        <e p="Generation" t="Include">
+          <e p="CILCodeGen.cs" t="Include" />
+          <e p="CipherGenContext.cs" t="Include" />
+          <e p="CipherGenerator.cs" t="Include" />
+          <e p="DMCodeGen.cs" t="Include" />
+          <e p="ExpressionGenerator.cs" t="Include" />
+          <e p="x86CodeGen.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="Transforms" t="Include">
+          <e p="ConvertVariables.cs" t="Include" />
+          <e p="ExpansionTransform.cs" t="Include" />
+          <e p="MulToShiftTransform.cs" t="Include" />
+          <e p="NormalizeBinOpTransform.cs" t="Include" />
+          <e p="ShuffleTransform.cs" t="Include" />
+        </e>
+        <e p="Utils.cs" t="Include" />
+      </e>
+      <e p="Confuser.Protections" t="IncludeRecursive">
+        <e p="AntiDebugProtection.cs" t="Include" />
+        <e p="AntiDumpProtection.cs" t="Include" />
+        <e p="AntiILDasmProtection.cs" t="Include" />
+        <e p="AntiTamper" t="Include">
+          <e p="AntiMode.cs" t="Include" />
+          <e p="AntiTamperProtection.cs" t="Include" />
+          <e p="DynamicDeriver.cs" t="Include" />
+          <e p="IKeyDeriver.cs" t="Include" />
+          <e p="IModeHandler.cs" t="Include" />
+          <e p="JITBody.cs" t="Include" />
+          <e p="JITMode.cs" t="Include" />
+          <e p="NormalDeriver.cs" t="Include" />
+          <e p="NormalMode.cs" t="Include" />
+        </e>
+        <e p="Compress" t="Include">
+          <e p="Compressor.cs" t="Include" />
+          <e p="CompressorContext.cs" t="Include" />
+          <e p="DynamicDeriver.cs" t="Include" />
+          <e p="ExtractPhase.cs" t="Include" />
+          <e p="IKeyDeriver.cs" t="Include" />
+          <e p="NormalDeriver.cs" t="Include" />
+          <e p="StubProtection.cs" t="Include" />
+        </e>
+        <e p="Confuser.Protections.csproj" t="IncludeRecursive" />
+        <e p="Constants" t="Include">
+          <e p="CEContext.cs" t="Include" />
+          <e p="ConstantProtection.cs" t="Include" />
+          <e p="DynamicMode.cs" t="Include" />
+          <e p="EncodeElements.cs" t="Include" />
+          <e p="EncodePhase.cs" t="Include" />
+          <e p="IEncodeMode.cs" t="Include" />
+          <e p="InjectPhase.cs" t="Include" />
+          <e p="Mode.cs" t="Include" />
+          <e p="NormalMode.cs" t="Include" />
+          <e p="ReferenceReplacer.cs" t="Include" />
+          <e p="x86Mode.cs" t="Include" />
+        </e>
+        <e p="ControlFlow" t="Include">
+          <e p="BlockParser.cs" t="Include" />
+          <e p="Blocks.cs" t="Include" />
+          <e p="CFContext.cs" t="Include" />
+          <e p="ControlFlowPhase.cs" t="Include" />
+          <e p="ControlFlowProtection.cs" t="Include" />
+          <e p="ExpressionPredicate.cs" t="Include" />
+          <e p="IPredicate.cs" t="Include" />
+          <e p="JumpMangler.cs" t="Include" />
+          <e p="ManglerBase.cs" t="Include" />
+          <e p="NormalPredicate.cs" t="Include" />
+          <e p="SwitchMangler.cs" t="Include" />
+          <e p="x86Predicate.cs" t="Include" />
+        </e>
+        <e p="HoLLy" t="Include">
+          <e p="AntiMemoryEditing" t="Include">
+            <e p="MemoryEditAnalyzePhase.cs" t="Include" />
+            <e p="MemoryEditApplyPhase.cs" t="Include" />
+            <e p="MemoryEditInjectPhase.cs" t="Include" />
+            <e p="MemoryEditProtection.cs" t="Include" />
+            <e p="MemoryEditService.cs" t="Include" />
+          </e>
+          <e p="AntiWatermark" t="Include">
+            <e p="AntiWatermarkPhase.cs" t="Include" />
+            <e p="AntiWatermarkProtection.cs" t="Include" />
+          </e>
+          <e p="FakeObuscator" t="Include">
+            <e p="FakeObfuscatorAttributesPhase.cs" t="Include" />
+            <e p="FakeObfuscatorProtection.cs" t="Include" />
+            <e p="FakeObfuscatorTypesPhase.cs" t="Include" />
+          </e>
+          <e p="Runtime" t="Include">
+            <e p="AntiMemoryEditing" t="Include">
+              <e p="ObfuscatedValue.cs" t="Include" />
+            </e>
+            <e p="FakeObfuscator" t="Include">
+              <e p="AgileDotNet.cs" t="Include" />
+              <e p="BabelDotNet.cs" t="Include" />
+              <e p="CodeFort.cs" t="Include" />
+              <e p="CodeWall.cs" t="Include" />
+              <e p="CryptoObfuscator.cs" t="Include" />
+              <e p="Dotfuscator.cs" t="Include" />
+              <e p="EazfuscatorDotNet.cs" t="Include" />
+              <e p="GoliathDotNet.cs" t="Include" />
+              <e p="SmartAssembly.cs" t="Include" />
+              <e p="SpicesDotNet.cs" t="Include" />
+              <e p="Xenocode.cs" t="Include" />
+            </e>
+          </e>
+          <e p="RuntimeHelper.cs" t="Include" />
+        </e>
+        <e p="InvalidMetadataProtection.cs" t="Include" />
+        <e p="ModuleFloodProtection.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="ReferenceProxy" t="Include">
+          <e p="ExpressionEncoding.cs" t="Include" />
+          <e p="IRPEncoding.cs" t="Include" />
+          <e p="MildMode.cs" t="Include" />
+          <e p="NormalEncoding.cs" t="Include" />
+          <e p="ReferenceProxyPhase.cs" t="Include" />
+          <e p="ReferenceProxyProtection.cs" t="Include" />
+          <e p="RPContext.cs" t="Include" />
+          <e p="RPMode.cs" t="Include" />
+          <e p="StrongMode.cs" t="Include" />
+          <e p="x86Encoding.cs" t="Include" />
+        </e>
+        <e p="Resources" t="Include">
+          <e p="DynamicMode.cs" t="Include" />
+          <e p="IEncodeMode.cs" t="Include" />
+          <e p="InjectPhase.cs" t="Include" />
+          <e p="MDPhase.cs" t="Include" />
+          <e p="Mode.cs" t="Include" />
+          <e p="NormalMode.cs" t="Include" />
+          <e p="REContext.cs" t="Include" />
+          <e p="ResourceProtection.cs" t="Include" />
+        </e>
+        <e p="StackUnderflowProtection.cs" t="Include" />
+        <e p="TypeScrambler" t="Include">
+          <e p="AnalyzePhase.cs" t="Include" />
+          <e p="ScramblePhase.cs" t="Include" />
+          <e p="Scrambler" t="Include">
+            <e p="Analyzers" t="Include">
+              <e p="ContextAnalyzer.cs" t="Include" />
+              <e p="ContextAnalyzerFactory.cs" t="Include" />
+              <e p="MemberRefAnalyzer.cs" t="Include" />
+              <e p="MethodDefAnalyzer.cs" t="Include" />
+              <e p="MethodSpecAnalyzer.cs" t="Include" />
+              <e p="TypeRefAnalyzer.cs" t="Include" />
+            </e>
+            <e p="Rewriter" t="Include">
+              <e p="EmbeddedCode" t="Include">
+                <e p="ObjectCreationFactory.cs" t="Include" />
+              </e>
+              <e p="Instructions" t="Include">
+                <e p="InstructionRewriter.cs" t="Include" />
+                <e p="InstructionRewriterFactory.cs" t="Include" />
+                <e p="MemberRefInstructionRewriter.cs" t="Include" />
+                <e p="MethodDefInstructionRewriter.cs" t="Include" />
+                <e p="MethodSpecInstructionRewriter.cs" t="Include" />
+                <e p="TypeDefInstructionRewriter.cs" t="Include" />
+                <e p="TypeRefInstructionRewriter.cs" t="Include" />
+              </e>
+            </e>
+            <e p="ScannedItem.cs" t="Include" />
+            <e p="ScannedMethod.cs" t="Include" />
+            <e p="ScannedType.cs" t="Include" />
+            <e p="TypeRewriter.cs" t="Include" />
+          </e>
+          <e p="TypeScrambleProtection.cs" t="Include" />
+          <e p="TypeService.cs" t="Include" />
+        </e>
+      </e>
+      <e p="Confuser.Renamer" t="IncludeRecursive">
+        <e p="AnalyzePhase.cs" t="Include" />
+        <e p="Analyzers" t="Include">
+          <e p="CaliburnAnalyzer.cs" t="Include" />
+          <e p="InterReferenceAnalyzer.cs" t="Include" />
+          <e p="JsonAnalyzer.cs" t="Include" />
+          <e p="LdtokenEnumAnalyzer.cs" t="Include" />
+          <e p="ResourceAnalyzer.cs" t="Include" />
+          <e p="TypeBlobAnalyzer.cs" t="Include" />
+          <e p="VTableAnalyzer.cs" t="Include" />
+          <e p="WinFormsAnalyzer.cs" t="Include" />
+          <e p="WPFAnalyzer.cs" t="Include" />
+        </e>
+        <e p="BAML" t="Include">
+          <e p="BAMLAnalyzer.cs" t="Include" />
+          <e p="BamlDocument.cs" t="Include" />
+          <e p="BamlElement.cs" t="Include" />
+          <e p="BAMLPropertyReference.cs" t="Include" />
+          <e p="BamlRecords.cs" t="Include" />
+          <e p="BamlRW.cs" t="Include" />
+          <e p="BAMLStringReference.cs" t="Include" />
+          <e p="IBAMLReference.cs" t="Include" />
+          <e p="IKnownThings.cs" t="Include" />
+          <e p="KnownThingsv3.cs" t="Include" />
+          <e p="KnownThingsv4.cs" t="Include" />
+          <e p="PropertyPath.cs" t="Include" />
+        </e>
+        <e p="Confuser.Renamer.csproj" t="IncludeRecursive" />
+        <e p="GenericArgumentResolver.cs" t="Include" />
+        <e p="INameReference.cs" t="Include" />
+        <e p="IRenamer.cs" t="Include" />
+        <e p="NameProtection.cs" t="Include" />
+        <e p="NameService.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="PostRenamePhase.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="References" t="Include">
+          <e p="BAMLAttributeReference.cs" t="Include" />
+          <e p="BAMLConverterMemberReference.cs" t="Include" />
+          <e p="BAMLConverterTypeReference.cs" t="Include" />
+          <e p="BAMLEnumReference.cs" t="Include" />
+          <e p="BAMLPathTypeReference.cs" t="Include" />
+          <e p="BAMLTypeReference.cs" t="Include" />
+          <e p="CAMemberReference.cs" t="Include" />
+          <e p="MemberRefReference.cs" t="Include" />
+          <e p="OverrideDirectiveReference.cs" t="Include" />
+          <e p="ResourceReference.cs" t="Include" />
+          <e p="StringTypeReference.cs" t="Include" />
+          <e p="TypeRefReference.cs" t="Include" />
+        </e>
+        <e p="RenameMode.cs" t="Include" />
+        <e p="RenamePhase.cs" t="Include" />
+        <e p="ReversibleRenamer.cs" t="Include" />
+        <e p="RickRoller.cs" t="Include" />
+        <e p="VTable.cs" t="Include" />
+      </e>
+      <e p="Confuser.Runtime" t="IncludeRecursive">
+        <e p="AntiDebug.Antinet.cs" t="Include" />
+        <e p="AntiDebug.Safe.cs" t="Include" />
+        <e p="AntiDebug.Win32.cs" t="Include" />
+        <e p="AntiDump.cs" t="Include" />
+        <e p="antinet" t="Include">
+          <e p="ABOUT" t="Include" />
+          <e p="AntiManagedDebugger.cs" t="Include" />
+          <e p="AntiManagedProfiler.cs" t="Include" />
+          <e p="HandleProcessCorruptedStateExceptionsAttribute.cs" t="Include" />
+          <e p="PEInfo.cs" t="Include" />
+        </e>
+        <e p="AntiTamper.Anti.cs" t="Include" />
+        <e p="AntiTamper.JIT.cs" t="Include" />
+        <e p="AntiTamper.Normal.cs" t="Include" />
+        <e p="Compressor.Compat.cs" t="Include" />
+        <e p="Compressor.cs" t="Include" />
+        <e p="Confuser.Runtime.csproj" t="IncludeRecursive" />
+        <e p="Constant.cs" t="Include" />
+        <e p="Lzma.cs" t="Include" />
+        <e p="ModuleFlood.cs" t="Include" />
+        <e p="Mutation.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="RefProxy.Strong.cs" t="Include" />
+        <e p="Resource.cs" t="Include" />
+      </e>
+      <e p="Confuser2.sln" t="IncludeFlat" />
+      <e p="ConfuserEx" t="IncludeRecursive">
+        <e p="app.config" t="Include" />
+        <e p="App.xaml" t="Include" />
+        <e p="App.xaml.cs" t="Include" />
+        <e p="BoolToVisibilityConverter.cs" t="Include" />
+        <e p="BrushToColorConverter.cs" t="Include" />
+        <e p="CompComboBox.xaml" t="Include" />
+        <e p="CompComboBox.xaml.cs" t="Include" />
+        <e p="ComponentConverter.cs" t="Include" />
+        <e p="ComponentDiscovery.cs" t="Include" />
+        <e p="ConfuserEx.csproj" t="IncludeRecursive" />
+        <e p="ConfuserEx.ico" t="Include" />
+        <e p="EnumValuesExtension.cs" t="Include" />
+        <e p="FileDragDrop.cs" t="Include" />
+        <e p="InvertBoolConverter.cs" t="Include" />
+        <e p="MainWindow.xaml" t="Include" />
+        <e p="MainWindow.xaml.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="Resources" t="Include">
+          <e p="CREDITS" t="Include" />
+          <e p="Decode.png" t="Include" />
+          <e p="Error.png" t="Include" />
+          <e p="FontAwesome.otf" t="Include" />
+          <e p="New.png" t="Include" />
+          <e p="Open.png" t="Include" />
+          <e p="Save.png" t="Include" />
+          <e p="TeamLogo.png" t="Include" />
+          <e p="Tools.png" t="Include" />
+        </e>
+        <e p="Skin.cs" t="Include" />
+        <e p="Skin.xaml" t="Include" />
+        <e p="StackTraceDecoder.xaml" t="Include" />
+        <e p="StackTraceDecoder.xaml.cs" t="Include" />
+        <e p="ViewModel" t="Include">
+          <e p="IViewModel.cs" t="Include" />
+          <e p="Project" t="Include">
+            <e p="ProjectModuleVM.cs" t="Include" />
+            <e p="ProjectRuleVM.cs" t="Include" />
+            <e p="ProjectSettingVM.cs" t="Include" />
+            <e p="ProjectVM.cs" t="Include" />
+          </e>
+          <e p="StringItem.cs" t="Include" />
+          <e p="UI" t="Include">
+            <e p="AboutTabVM.cs" t="Include" />
+            <e p="AppVM.cs" t="Include" />
+            <e p="ProjectTabVM.cs" t="Include" />
+            <e p="ProtectTabVM.cs" t="Include" />
+            <e p="SettingsTabVM.cs" t="Include" />
+            <e p="TabViewModel.cs" t="Include" />
+          </e>
+          <e p="Utils.cs" t="Include" />
+          <e p="ViewModelBase.cs" t="Include" />
+        </e>
+        <e p="Views" t="Include">
+          <e p="AboutTabView.xaml" t="Include" />
+          <e p="ProjectModuleView.xaml" t="Include" />
+          <e p="ProjectModuleView.xaml.cs" t="Include" />
+          <e p="ProjectRuleView.xaml" t="Include" />
+          <e p="ProjectRuleView.xaml.cs" t="Include" />
+          <e p="ProjectTabAdvancedView.xaml" t="Include" />
+          <e p="ProjectTabAdvancedView.xaml.cs" t="Include" />
+          <e p="ProjectTabView.xaml" t="Include" />
+          <e p="ProtectTabView.xaml" t="Include" />
+          <e p="SettingsTabView.xaml" t="Include" />
+        </e>
+        <e p="Views.xaml" t="Include" />
+      </e>
+      <e p="ConfuserEx.snk" t="Include" />
+      <e p="Debug\bin" t="ExcludeRecursive" />
+      <e p="dnlib\LICENSE.txt" t="Include" />
+      <e p="dnlib\README.md" t="Include" />
+      <e p="dnlib\src" t="IncludeRecursive">
+        <e p="dnlib.csproj" t="IncludeRecursive" />
+        <e p="DotNet" t="Include">
+          <e p="AccessChecker.cs" t="Include" />
+          <e p="AllTypesHelper.cs" t="Include" />
+          <e p="AssemblyAttributes.cs" t="Include" />
+          <e p="AssemblyDef.cs" t="Include" />
+          <e p="AssemblyHash.cs" t="Include" />
+          <e p="AssemblyHashAlgorithm.cs" t="Include" />
+          <e p="AssemblyNameComparer.cs" t="Include" />
+          <e p="AssemblyNameInfo.cs" t="Include" />
+          <e p="AssemblyRef.cs" t="Include" />
+          <e p="AssemblyResolver.cs" t="Include" />
+          <e p="CallingConvention.cs" t="Include" />
+          <e p="CallingConventionSig.cs" t="Include" />
+          <e p="ClassLayout.cs" t="Include" />
+          <e p="Constant.cs" t="Include" />
+          <e p="CorLibTypes.cs" t="Include" />
+          <e p="CustomAttribute.cs" t="Include" />
+          <e p="CustomAttributeCollection.cs" t="Include" />
+          <e p="CustomAttributeReader.cs" t="Include" />
+          <e p="DeclSecurity.cs" t="Include" />
+          <e p="DeclSecurityReader.cs" t="Include" />
+          <e p="ElementType.cs" t="Include" />
+          <e p="Emit" t="Include">
+            <e p="Code.cs" t="Include" />
+            <e p="DynamicMethodBodyReader.cs" t="Include" />
+            <e p="ExceptionHandler.cs" t="Include" />
+            <e p="ExceptionHandlerType.cs" t="Include" />
+            <e p="Extensions.cs" t="Include" />
+            <e p="FlowControl.cs" t="Include" />
+            <e p="Instruction.cs" t="Include" />
+            <e p="InstructionPrinter.cs" t="Include" />
+            <e p="InvalidMethodException.cs" t="Include" />
+            <e p="LocalList.cs" t="Include" />
+            <e p="MethodBody.cs" t="Include" />
+            <e p="MethodBodyReader.cs" t="Include" />
+            <e p="MethodBodyReaderBase.cs" t="Include" />
+            <e p="MethodTableToTypeConverter.cs" t="Include" />
+            <e p="MethodUtils.cs" t="Include" />
+            <e p="OpCode.cs" t="Include" />
+            <e p="OpCodes.cs" t="Include" />
+            <e p="OpCodeType.cs" t="Include" />
+            <e p="OperandType.cs" t="Include" />
+            <e p="StackBehaviour.cs" t="Include" />
+          </e>
+          <e p="EventAttributes.cs" t="Include" />
+          <e p="EventDef.cs" t="Include" />
+          <e p="ExportedType.cs" t="Include" />
+          <e p="Extensions.cs" t="Include" />
+          <e p="FieldAttributes.cs" t="Include" />
+          <e p="FieldDef.cs" t="Include" />
+          <e p="FileAttributes.cs" t="Include" />
+          <e p="FileDef.cs" t="Include" />
+          <e p="FrameworkRedirect.cs" t="Include" />
+          <e p="FullNameCreator.cs" t="Include" />
+          <e p="GenericArguments.cs" t="Include" />
+          <e p="GenericParam.cs" t="Include" />
+          <e p="GenericParamAttributes.cs" t="Include" />
+          <e p="GenericParamConstraint.cs" t="Include" />
+          <e p="GenericParamContext.cs" t="Include" />
+          <e p="IAssemblyResolver.cs" t="Include" />
+          <e p="ICodedToken.cs" t="Include" />
+          <e p="ICorLibTypes.cs" t="Include" />
+          <e p="ICustomAttribute.cs" t="Include" />
+          <e p="IDecrypters.cs" t="Include" />
+          <e p="ILogger.cs" t="Include" />
+          <e p="ImplMap.cs" t="Include" />
+          <e p="Importer.cs" t="Include" />
+          <e p="InterfaceImpl.cs" t="Include" />
+          <e p="IResolver.cs" t="Include" />
+          <e p="ITokenResolver.cs" t="Include" />
+          <e p="IType.cs" t="Include" />
+          <e p="ITypeDefFinder.cs" t="Include" />
+          <e p="IVariable.cs" t="Include" />
+          <e p="ManifestResource.cs" t="Include" />
+          <e p="ManifestResourceAttributes.cs" t="Include" />
+          <e p="MarshalBlobReader.cs" t="Include" />
+          <e p="MarshalType.cs" t="Include" />
+          <e p="MD" t="Include">
+            <e p="BlobStream.cs" t="Include" />
+            <e p="CodedToken.cs" t="Include" />
+            <e p="ColumnInfo.cs" t="Include" />
+            <e p="ColumnSize.cs" t="Include" />
+            <e p="ComImageFlags.cs" t="Include" />
+            <e p="CompressedMetaData.cs" t="Include" />
+            <e p="DotNetStream.cs" t="Include" />
+            <e p="DotNetTableSizes.cs" t="Include" />
+            <e p="ENCMetaData.cs" t="Include" />
+            <e p="GuidStream.cs" t="Include" />
+            <e p="HeapType.cs" t="Include" />
+            <e p="HotHeapStream.cs" t="Include" />
+            <e p="HotHeapVersion.cs" t="Include" />
+            <e p="HotStream.cs" t="Include" />
+            <e p="HotTableStream.cs" t="Include" />
+            <e p="ImageCor20Header.cs" t="Include" />
+            <e p="IMetaData.cs" t="Include" />
+            <e p="IRowReaders.cs" t="Include" />
+            <e p="MDHeaderRuntimeVersion.cs" t="Include" />
+            <e p="MDStreamFlags.cs" t="Include" />
+            <e p="MDTable.cs" t="Include" />
+            <e p="MetaData.cs" t="Include" />
+            <e p="MetaDataCreator.cs" t="Include" />
+            <e p="MetaDataHeader.cs" t="Include" />
+            <e p="RawRowEqualityComparer.cs" t="Include" />
+            <e p="RawTableRows.cs" t="Include" />
+            <e p="RidList.cs" t="Include" />
+            <e p="StorageFlags.cs" t="Include" />
+            <e p="StreamHeader.cs" t="Include" />
+            <e p="StringsStream.cs" t="Include" />
+            <e p="Table.cs" t="Include" />
+            <e p="TableInfo.cs" t="Include" />
+            <e p="TablesStream.cs" t="Include" />
+            <e p="TablesStream_Read.cs" t="Include" />
+            <e p="USStream.cs" t="Include" />
+          </e>
+          <e p="MDToken.cs" t="Include" />
+          <e p="MemberFinder.cs" t="Include" />
+          <e p="MemberMDInitializer.cs" t="Include" />
+          <e p="MemberRef.cs" t="Include" />
+          <e p="MethodAttributes.cs" t="Include" />
+          <e p="MethodDef.cs" t="Include" />
+          <e p="MethodImplAttributes.cs" t="Include" />
+          <e p="MethodOverride.cs" t="Include" />
+          <e p="MethodSemanticsAttributes.cs" t="Include" />
+          <e p="MethodSpec.cs" t="Include" />
+          <e p="ModuleContext.cs" t="Include" />
+          <e p="ModuleCreationOptions.cs" t="Include" />
+          <e p="ModuleDef.cs" t="Include" />
+          <e p="ModuleDefMD.cs" t="Include" />
+          <e p="ModuleKind.cs" t="Include" />
+          <e p="ModuleLoader.cs" t="Include" />
+          <e p="ModuleRef.cs" t="Include" />
+          <e p="NativeType.cs" t="Include" />
+          <e p="NullResolver.cs" t="Include" />
+          <e p="ParamAttributes.cs" t="Include" />
+          <e p="ParamDef.cs" t="Include" />
+          <e p="ParameterList.cs" t="Include" />
+          <e p="Pdb" t="Include">
+            <e p="Dss" t="Include">
+              <e p="ComInterfaces.cs" t="Include" />
+              <e p="ImageStreamIStream.cs" t="Include" />
+              <e p="MDEmitter.cs" t="Include" />
+              <e p="PinnedMetaData.cs" t="Include" />
+              <e p="StreamIStream.cs" t="Include" />
+              <e p="SymbolDocument.cs" t="Include" />
+              <e p="SymbolDocumentWriter.cs" t="Include" />
+              <e p="SymbolMethod.cs" t="Include" />
+              <e p="SymbolNamespace.cs" t="Include" />
+              <e p="SymbolReader.cs" t="Include" />
+              <e p="SymbolReaderCreator.cs" t="Include" />
+              <e p="SymbolScope.cs" t="Include" />
+              <e p="SymbolVariable.cs" t="Include" />
+              <e p="SymbolWriter.cs" t="Include" />
+              <e p="SymbolWriterCreator.cs" t="Include" />
+            </e>
+            <e p="ISymbolWriter2.cs" t="Include" />
+            <e p="Managed" t="Include">
+              <e p="DbiDocument.cs" t="Include" />
+              <e p="DbiFunction.cs" t="Include" />
+              <e p="DbiModule.cs" t="Include" />
+              <e p="DbiNamespace.cs" t="Include" />
+              <e p="DbiScope.cs" t="Include" />
+              <e p="DbiSourceLine.cs" t="Include" />
+              <e p="DbiVariable.cs" t="Include" />
+              <e p="ModuleStreamType.cs" t="Include" />
+              <e p="MsfStream.cs" t="Include" />
+              <e p="PdbAddress.cs" t="Include" />
+              <e p="PdbException.cs" t="Include" />
+              <e p="PdbReader.cs" t="Include" />
+              <e p="SymbolReaderCreator.cs" t="Include" />
+              <e p="SymbolType.cs" t="Include" />
+            </e>
+            <e p="PdbDocument.cs" t="Include" />
+            <e p="PdbImplType.cs" t="Include" />
+            <e p="PdbScope.cs" t="Include" />
+            <e p="PdbState.cs" t="Include" />
+            <e p="PdbWriter.cs" t="Include" />
+            <e p="SequencePoint.cs" t="Include" />
+            <e p="SymbolReaderCreator.cs" t="Include" />
+            <e p="SymbolWriterCreator.cs" t="Include" />
+          </e>
+          <e p="PInvokeAttributes.cs" t="Include" />
+          <e p="PropertyAttributes.cs" t="Include" />
+          <e p="PropertyDef.cs" t="Include" />
+          <e p="PublicKey.cs" t="Include" />
+          <e p="PublicKeyBase.cs" t="Include" />
+          <e p="PublicKeyToken.cs" t="Include" />
+          <e p="RecursionCounter.cs" t="Include" />
+          <e p="ReflectionExtensions.cs" t="Include" />
+          <e p="ResolveException.cs" t="Include" />
+          <e p="Resolver.cs" t="Include" />
+          <e p="Resource.cs" t="Include" />
+          <e p="ResourceCollection.cs" t="Include" />
+          <e p="Resources" t="Include">
+            <e p="BuiltInResourceData.cs" t="Include" />
+            <e p="IResourceData.cs" t="Include" />
+            <e p="ResourceDataCreator.cs" t="Include" />
+            <e p="ResourceElement.cs" t="Include" />
+            <e p="ResourceElementSet.cs" t="Include" />
+            <e p="ResourceReader.cs" t="Include" />
+            <e p="ResourceTypeCode.cs" t="Include" />
+            <e p="ResourceWriter.cs" t="Include" />
+            <e p="UserResourceData.cs" t="Include" />
+            <e p="UserResourceType.cs" t="Include" />
+          </e>
+          <e p="SecurityAction.cs" t="Include" />
+          <e p="SecurityAttribute.cs" t="Include" />
+          <e p="SerializationType.cs" t="Include" />
+          <e p="SigComparer.cs" t="Include" />
+          <e p="SignatureReader.cs" t="Include" />
+          <e p="StandAloneSig.cs" t="Include" />
+          <e p="StrongNameKey.cs" t="Include" />
+          <e p="StrongNameSigner.cs" t="Include" />
+          <e p="TIAHelper.cs" t="Include" />
+          <e p="TypeAttributes.cs" t="Include" />
+          <e p="TypeDef.cs" t="Include" />
+          <e p="TypeDefFinder.cs" t="Include" />
+          <e p="TypeHelper.cs" t="Include" />
+          <e p="TypeNameParser.cs" t="Include" />
+          <e p="TypeRef.cs" t="Include" />
+          <e p="TypeSig.cs" t="Include" />
+          <e p="TypeSpec.cs" t="Include" />
+          <e p="UTF8String.cs" t="Include" />
+          <e p="Utils.cs" t="Include" />
+          <e p="VariantType.cs" t="Include" />
+          <e p="VTableFixups.cs" t="Include" />
+          <e p="WinMDHelpers.cs" t="Include" />
+          <e p="WinMDStatus.cs" t="Include" />
+          <e p="Writer" t="Include">
+            <e p="BinaryReaderChunk.cs" t="Include" />
+            <e p="BlobHeap.cs" t="Include" />
+            <e p="ByteArrayChunk.cs" t="Include" />
+            <e p="ChunkList.cs" t="Include" />
+            <e p="ChunkListBase.cs" t="Include" />
+            <e p="CustomAttributeWriter.cs" t="Include" />
+            <e p="DebugDirectory.cs" t="Include" />
+            <e p="DeclSecurityWriter.cs" t="Include" />
+            <e p="Extensions.cs" t="Include" />
+            <e p="GuidHeap.cs" t="Include" />
+            <e p="HeapBase.cs" t="Include" />
+            <e p="HotHeap.cs" t="Include" />
+            <e p="HotPool.cs" t="Include" />
+            <e p="HotTable.cs" t="Include" />
+            <e p="IChunk.cs" t="Include" />
+            <e p="IHeap.cs" t="Include" />
+            <e p="ImageCor20Header.cs" t="Include" />
+            <e p="IMetaDataListener.cs" t="Include" />
+            <e p="IModuleWriterListener.cs" t="Include" />
+            <e p="ImportAddressTable.cs" t="Include" />
+            <e p="ImportDirectory.cs" t="Include" />
+            <e p="IOffsetHeap.cs" t="Include" />
+            <e p="IWriterError.cs" t="Include" />
+            <e p="MarshalBlobWriter.cs" t="Include" />
+            <e p="MaxStackCalculator.cs" t="Include" />
+            <e p="MDTable.cs" t="Include" />
+            <e p="MDTableWriter.cs" t="Include" />
+            <e p="MetaData.cs" t="Include" />
+            <e p="MetaDataHeader.cs" t="Include" />
+            <e p="MethodBody.cs" t="Include" />
+            <e p="MethodBodyChunks.cs" t="Include" />
+            <e p="MethodBodyWriter.cs" t="Include" />
+            <e p="MethodBodyWriterBase.cs" t="Include" />
+            <e p="ModuleWriter.cs" t="Include" />
+            <e p="ModuleWriterBase.cs" t="Include" />
+            <e p="ModuleWriterException.cs" t="Include" />
+            <e p="NativeModuleWriter.cs" t="Include" />
+            <e p="NetResources.cs" t="Include" />
+            <e p="NormalMetaData.cs" t="Include" />
+            <e p="PEHeaders.cs" t="Include" />
+            <e p="PESection.cs" t="Include" />
+            <e p="PreserveTokensMetaData.cs" t="Include" />
+            <e p="RelocDirectory.cs" t="Include" />
+            <e p="SectionSizes.cs" t="Include" />
+            <e p="SignatureWriter.cs" t="Include" />
+            <e p="StartupStub.cs" t="Include" />
+            <e p="StringsHeap.cs" t="Include" />
+            <e p="StrongNameSignature.cs" t="Include" />
+            <e p="TablesHeap.cs" t="Include" />
+            <e p="UniqueChunkList.cs" t="Include" />
+            <e p="USHeap.cs" t="Include" />
+            <e p="Win32ResourcesChunk.cs" t="Include" />
+            <e p="WriterUtils.cs" t="Include" />
+          </e>
+        </e>
+        <e p="ExtensionAttribute.cs" t="Include" />
+        <e p="HandleProcessCorruptedStateExceptionsAttribute.cs" t="Include" />
+        <e p="IO" t="Include">
+          <e p="BinaryReaderStream.cs" t="Include" />
+          <e p="FileOffset.cs" t="Include" />
+          <e p="FileSection.cs" t="Include" />
+          <e p="IBinaryReader.cs" t="Include" />
+          <e p="IFileSection.cs" t="Include" />
+          <e p="IImageStream.cs" t="Include" />
+          <e p="IImageStreamCreator.cs" t="Include" />
+          <e p="ImageStreamCreator.cs" t="Include" />
+          <e p="IOExtensions.cs" t="Include" />
+          <e p="MemoryImageStream.cs" t="Include" />
+          <e p="MemoryMappedFileStreamCreator.cs" t="Include" />
+          <e p="MemoryStreamCreator.cs" t="Include" />
+          <e p="UnmanagedMemoryImageStream.cs" t="Include" />
+          <e p="UnmanagedMemoryStreamCreator.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="PE" t="Include">
+          <e p="Characteristics.cs" t="Include" />
+          <e p="DllCharacteristics.cs" t="Include" />
+          <e p="IImageOptionalHeader.cs" t="Include" />
+          <e p="ImageDataDirectory.cs" t="Include" />
+          <e p="ImageDosHeader.cs" t="Include" />
+          <e p="ImageFileHeader.cs" t="Include" />
+          <e p="ImageNTHeaders.cs" t="Include" />
+          <e p="ImageOptionalHeader32.cs" t="Include" />
+          <e p="ImageOptionalHeader64.cs" t="Include" />
+          <e p="ImageSectionHeader.cs" t="Include" />
+          <e p="IPEImage.cs" t="Include" />
+          <e p="IPEType.cs" t="Include" />
+          <e p="Machine.cs" t="Include" />
+          <e p="PEExtensions.cs" t="Include" />
+          <e p="PEImage.cs" t="Include" />
+          <e p="PEInfo.cs" t="Include" />
+          <e p="RVA.cs" t="Include" />
+          <e p="Subsystem.cs" t="Include" />
+        </e>
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="Settings.cs" t="Include" />
+        <e p="Threading" t="Include">
+          <e p="Extensions.cs" t="Include" />
+          <e p="ICancellationToken.cs" t="Include" />
+          <e p="IThreadSafeList.cs" t="Include" />
+          <e p="Lock.cs" t="Include" />
+          <e p="ThreadSafeListCreator.cs" t="Include" />
+          <e p="ThreadSafeListWrapper.cs" t="Include" />
+        </e>
+        <e p="Utils" t="Include">
+          <e p="Extensions.cs" t="Include" />
+          <e p="ILazyList.cs" t="Include" />
+          <e p="LazyList.cs" t="Include" />
+          <e p="MFunc.cs" t="Include" />
+          <e p="SimpleLazyList.cs" t="Include" />
+          <e p="UserValue.cs" t="Include" />
+        </e>
+        <e p="W32Resources" t="Include">
+          <e p="ResourceData.cs" t="Include" />
+          <e p="ResourceDirectory.cs" t="Include" />
+          <e p="ResourceDirectoryEntry.cs" t="Include" />
+          <e p="ResourceName.cs" t="Include" />
+          <e p="Win32Resources.cs" t="Include" />
+        </e>
+      </e>
+      <e p="GlobalAssemblyInfo.cs" t="Include" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Release\bin" t="ExcludeRecursive" />
+      <e p="UnitTest" t="IncludeRecursive">
+        <e p="app.config" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="GenericTest.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="UnitTest.csproj" t="IncludeRecursive" />
+      </e>
+    </e>
+  </component>
+</project>
