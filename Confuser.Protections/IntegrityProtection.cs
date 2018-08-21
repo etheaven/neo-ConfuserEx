@@ -12,7 +12,7 @@ using dnlib.DotNet.Emit;
 using dnlib.DotNet.Writer;
 
 namespace Confuser.Protections {
-    [BeforeProtection("Ki.AntiTamper")]
+    [AfterProtection("Ki.AntiTamper")]
 	internal class IntegrityProtection : Protection {
 		public const string _Id = "integrity prot";
 		public const string _FullId = "Rexy.IP";
